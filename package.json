@@ -1,0 +1,13 @@
+{
+	"name": "twitchplayswordpress",
+	"version": "0.0.1",
+	"description": "Twitch Plays WordPress.",
+	"main": "index.js",
+	"author": "Jason Stallings",
+	"license": "GPL",
+	"dependencies":
+	{
+		"robotjs": "^0.2.4",
+		"tmi.js": "0.0.23"
+	}
+}
