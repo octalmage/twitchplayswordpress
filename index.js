@@ -35,6 +35,10 @@ client.on("chat", function(channel, user, message, self)
 	command(message);
 });
 
+/**
+ * Process the chat to find commands.
+ * @param  {string} message The chat line to process.
+ */
 function command(message)
 {
 	var commandArray = message.split(" ");
