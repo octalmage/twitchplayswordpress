@@ -51,8 +51,11 @@ function command(message)
 			console.log("Clicked " + commandArray[1] + ", " + commandArray[2] + ".");
 			break;
 		case "type":
-			robot.typeString(message.substr(message.indexOf(" ") + 1));
-			console.log("Typed " + message.substr(message.indexOf(" ") + 1) + ".");
+            //The rest of the string after the command.
+            var stringToType = message.substr(message.indexOf(" ") + 1);
+            
+			robot.typeString(stringToType);
+			console.log("Typed " + stringToType + ".");
 			break;
 		default:
 			console.log("No command.");
