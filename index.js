@@ -18,7 +18,7 @@ var options = {
 	},
 	identity:
 	{
-		username: "TwitchPlaysWordPress",
+		username: config.username,
 		password: config.password
 	},
 	channels: ["#twitchplayswordpress"]
