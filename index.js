@@ -21,7 +21,7 @@ var options = {
 		username: config.username,
 		password: config.password
 	},
-	channels: ["#twitchplayswordpress"]
+	channels: config.channels
 };
 
 var client = new irc.client(options);
