@@ -57,6 +57,10 @@ function command(message)
 			robot.typeString(stringToType);
 			console.log("Typed " + stringToType + ".");
 			break;
+		case "move":
+			robot.moveMouseSmooth(commandArray[1], commandArray[2]);
+			console.log("Moved " + commandArray[1] + ", " + commandArray[2] + ".");
+			break;
 		default:
 			console.log("No command.");
 	}
