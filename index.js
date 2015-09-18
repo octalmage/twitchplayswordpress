@@ -46,7 +46,7 @@ function command(message)
 	switch (commandArray[0])
 	{
 		case "click":
-			robot.moveMouse(commandArray[1], commandArray[2]);
+			robot.moveMouseSmooth(commandArray[1], commandArray[2]);
 			robot.mouseClick();
 			console.log("Clicked " + commandArray[1] + ", " + commandArray[2] + ".");
 			break;
