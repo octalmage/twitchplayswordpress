@@ -26,7 +26,7 @@ var options = {
 
 var client = new irc.client(options);
 
-// Connect the client to the server..
+// Connect the client to the server.
 client.connect();
 
 client.on("chat", function(channel, user, message, self)
